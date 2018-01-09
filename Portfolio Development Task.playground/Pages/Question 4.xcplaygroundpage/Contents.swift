@@ -30,6 +30,11 @@
  
  */
 // Answer question 4 below
+var totalMoneyIHaveEarned = 0.0 // Must be a Double since you can earn part of a dollar.
+totalMoneyIHaveEarned -= 0.1    // Part 1
+totalMoneyIHaveEarned += 6.75   // Part 2
+totalMoneyIHaveEarned /= 2      // Part 3
+totalMoneyIHaveEarned *= 3      // Part 4
 
 /*:
  ## Now share your understanding
