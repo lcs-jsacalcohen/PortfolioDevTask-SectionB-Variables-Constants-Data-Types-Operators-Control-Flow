@@ -21,7 +21,11 @@
  
  */
 // Answer question 3 below
-
+let hairDonationAmount = 55.75
+let runTrainingDonationAmount = 15.35
+var headShavedCount = 12
+var runTrainingCount = 73
+var totalDonationAmount = Double(headShavedCount) * hairDonationAmount + Double(runTrainingCount) * runTrainingDonationAmount
 /*:
  ## Now share your understanding
  
