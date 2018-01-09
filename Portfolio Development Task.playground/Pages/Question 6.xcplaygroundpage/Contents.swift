@@ -19,6 +19,24 @@
  
  */
 // Answer question 6 below
+let targetDistance = 100.0
+var currentDistanceRun = 23.0
+
+// Calculate percentage of current distance run
+let percentageComplete = currentDistanceRun / targetDistance
+
+// Provide feedback
+if percentageComplete < 0.1 {
+    print("Great start, keep it up!")
+} else if percentageComplete >= 0.45 && percentageComplete < 0.5 {
+    print("You're almost at halfway!")
+} else if percentageComplete == 0.5 {
+    print("Halfway there!")
+} else if percentageComplete > 0.9 && percentageComplete < 1 {
+    print("Nearly done!")
+} else if percentageComplete == 1 {
+    print("GREAT JOB! You're finished the run.")
+}
 
 
 /*:
