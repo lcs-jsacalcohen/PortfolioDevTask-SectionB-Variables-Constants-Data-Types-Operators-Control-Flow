@@ -21,7 +21,14 @@
  
  */
 // Answer question 2 below
-
+let measurementDate = "December 25, 2017"
+print("A given snowfall measurement's date will never change. Therefore, use a constant.")
+let measurementTime = "7:00 AM"
+print("A given snowfall measurement's time will never change. Therefore, use a constant.")
+let currentHeightOfSnow = 13.2
+print("The height of snowfall at the time of a measurement is also fixed (does not change, it's a snapshot in time. Therefore, use a constant.")
+var totalSnowfallSoFarThisYear = 70.0
+print("The cumulative amount of snowfall will change over the course of a year. Therefore, use a variable.")
 /*:
  ## Now share your understanding
  
