@@ -22,9 +22,13 @@
  */
 // Answer question 3 below
 let hairDonationAmount = 55.75
+print("A Double must be used on the line above (since there is a decimal value; this is an amount of money in dollars and cents.")
 let runTrainingDonationAmount = 15.35
+print("A Double must be used on the line above (since there is a decimal value; this is an amount of money in dollars and cents.")
 var headShavedCount = 12
+print("An Int was used here, as I'm making the assumption that it's all or nothing for shaving a head. Since there is no potential for half of a shaved head for charity, an integer data type makes more sense.")
 var runTrainingCount = 73
+print("You have to complete the run to earn the donation. Again, with no potential for half of a run, it makes more sense to use an Int data type. Integers are more efficient, storage-wise, in the computer, and faster for the processor to work with.")
 var totalDonationAmount = Double(headShavedCount) * hairDonationAmount + Double(runTrainingCount) * runTrainingDonationAmount
 /*:
  ## Now share your understanding
